@@ -13,6 +13,7 @@ import os
 from pathlib import Path
 from .dbmysql import MYSQL
 
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -39,12 +40,15 @@ INSTALLED_APPS = [
     'pruebas',          # Módulo de pruebas --temporal,
     'reportes',         # Reportes
     'procesamiento',    # Módulo de procesamiento de datos
+    'import_export',
+    'wkhtmltopdf',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
 ]
 
 MIDDLEWARE = [

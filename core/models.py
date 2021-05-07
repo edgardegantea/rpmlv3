@@ -194,10 +194,6 @@ class CensoTemperatura(models.Model):
     def __str__(self):
         return str(self.temperatura1)
 
-
     class Meta:
         verbose_name = 'Temperatura'
         verbose_name_plural = 'Temperatura'
-
-
-class 
